@@ -1,0 +1,296 @@
+html{
+  background-color: #efe9dd;
+}
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Put styles for desktop and basic styles for all devices here */ 
+@font-face { font-family: shipporiminchob1;
+        src: url(Shippori_Mincho_B1/ShipporiMinchoB1-Regular.ttf);
+}
+@font-face { font-family: shipporiminchob1-bold;
+    src: url(Shippori_Mincho_B1/ShipporiMinchoB1-Bold.ttf);
+}
+@font-face { font-family: shipporiminchob1-med;
+    src: url(Shippori_Mincho_B1/ShipporiMinchoB1-Medium.ttf)
+}
+@font-face { font-family: authenticsignature;
+    src: url(authentic_signature/Authentic\ Signature.ttf);
+}
+.logo {
+float:left;  
+}
+.header {
+  color: black;
+}
+h1, p{
+    color: black!important;
+}
+h1{
+    font-family: shipporiminchob1;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-family: shipporiminchob1;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: shipporiminchob1;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    font-family: montserrat;
+    font-size: 18px;
+    text-align: center;
+}
+.text {
+  text-align: center;
+}
+article {
+  font-family: montserrat;
+  font-size: 18px;
+  text-align: center;
+}
+.logo-img {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+}
+.bg-div {
+ overflow: hidden;
+}
+nav {
+  float: left;
+}
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+.btn .up {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: authenticsignature;
+  text-align: center;
+  display: flex;
+  margin: auto;
+ align-content: center;
+ justify-content: center;
+}
+/* On mouse-over */
+.btn .up:hover {
+  background: #e59d09;
+}
+.topnav-right {
+    float: right;
+    padding-top:6%;
+    text-transform: uppercase;
+  }
+  /* Add a background color to the top navigation */
+.topnav {
+    background-color:transparent;
+    overflow: hidden;
+    font-family: shipporiminchob1;
+    font-size: 14px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: shipporiminchob1;
+    font-size: 14px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e59d09;
+    color:blanchedalmond;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: black;
+  }
+  .btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: authenticsignature;
+    text-align: center;
+    display: flex;
+    margin: auto;
+   align-content: center;
+   justify-content: center;
+  }
+  /* On mouse-over */
+  .btn:hover {
+    background: #e59d09;
+  }
+  .learnmore {
+    color:black;
+  }
+  .video {
+      padding: 0%;
+      display: inline-block;
+      margin: 0%;
+  }
+  .container { align-content: center; 
+  margin: 0%;
+  padding: 0%;
+}
+  .container video {
+    z-index:0;
+    align-content: center;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+  .overlay {
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:1;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .text{
+    transform: translate(10%,-270%);
+  }
+  .subscribee {
+    text-align: center;
+    transform: translate(-3%,-900%)
+}
+  .subscribe {
+      text-align: center;
+      transform: translate(10%,-170%)
+  }
+  .subcontainer {
+      margin-top: 5px;
+      width: 50%;
+  }
+  .input {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid transparent;
+    width:100%
+  }
+  .content {
+    max-width:980px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .colmpadding {
+    padding-top:16px;
+    padding-bottom:16px;
+  }
+  .scontainer {
+    padding:0.01em 16px;
+    padding-top:64px;
+    padding-bottom:64px;
+  }
+  .home .container{
+    padding-bottom: 0%;
+  }
+   .footer {
+        background-color: #efe9dd;
+        text-align: center;
+        padding: 10px;
+      }
+      
+/* medium display only */ 
+    
+    @media (min-width: 481px) and (max-width:768px) { 
+      .topnav-right{
+        text-align:center;
+      }
+      .subscribee {
+        text-align: center;
+        transform: translate(-3%,-500%);
+    }
+    }
+    
+    /* small display only */ 
+     /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+  .topnav-right {
+    text-align: center;
+ float: left;
+  text-transform: uppercase;
+}
+  .subscribee {
+    text-align: center;
+    transform: translate(-3%,-500%);
+} 
+}
+    @media (max-width:480px) { 
+        .topnav-right {
+          text-align: center;
+          float: left;
+            text-transform: uppercase;
+          }
+      .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+      .subscribee {
+        text-align: center;
+        transform: translate(-3%,-500%);
+    }
+    }
+  
+    
